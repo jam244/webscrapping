@@ -5,6 +5,15 @@ Basically webscrapper which creates a pie chart representing the calorie distrib
 
 Dockerized application which adds Selenium standalone for navigating the Sainsburys UK website to get calorie information of each item in the reciept.
 
+To Run
+------
+Put your Sainsburys receipt in the app folder
+clone the repo
+run sudo docker-compose build
+sudo docker-compose up
+
+pie chart will be generated in the end in app folder
+
 
 TBD
 ---
