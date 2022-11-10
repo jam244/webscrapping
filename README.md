@@ -14,6 +14,8 @@ sudo docker-compose up
 
 pie chart will be generated in the end in app folder
 
+![Tool output](images/pie_big.png)
+
 
 TBD
 ---

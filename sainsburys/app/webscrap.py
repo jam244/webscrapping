@@ -60,9 +60,9 @@ def get_calories(item, driver):
     search.send_keys(item)
     search.send_keys(Keys.RETURN)
 
-    main = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "pt__content")))
+    main = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "pt__info__description")))
     time.sleep(random.randint(2, 3))
-    driver.find_element(By.CLASS_NAME,"pt__content").click()
+    driver.find_element(By.CLASS_NAME,"pt__info__description").click()
     
     try:
         main = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "nutritionTable")))
