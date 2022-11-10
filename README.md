@@ -1,7 +1,7 @@
 Sainsburys Calorie counter tool
 -------------------------------
 
-Basically webscrapper which creates a pie chart representing the calorie distribution of items in a Sainsburys recept pdf.
+A webscrapper which creates a pie chart representing the calorie distribution of items in a Sainsburys recept pdf.
 
 Dockerized application which adds Selenium standalone for navigating the Sainsburys UK website to get calorie information of each item in the reciept.
 
@@ -24,3 +24,9 @@ Improve speed through use of parellelization. Currently delays have been added b
 This slows down the execution.
 
 
+Stock sentiment analysis tool
+-------------------------------
+A tool to plot news sentiment of Indian stocks using news headlines from tradingview.com.
+Prvoide the ticker symbols of stocks in the Jupyter notebook and run the notebook.
+
+![Example output](images/stock.jpg)
